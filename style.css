@@ -138,6 +138,16 @@ html body {
     color: #e5e7eb;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 14px;
+    padding: 30px;
+}
+
 a , p {
     text-decoration: none;
     color: #e5e7eb;
