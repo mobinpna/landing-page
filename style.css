@@ -5,6 +5,7 @@
     background-color: #ffffff;
     margin: 0px;
     font-weight: 400;
+    /* border: solid red 1px; */
 }
 
 html body {
@@ -49,8 +50,42 @@ html body {
     color: #f9faf8;
 }
 
-p {
+.info-sec {
+    padding: 55px 100px 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.info-sec .top {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.info-sec .bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.text {
+    max-width: 150px;
+}
+
+.sub img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    border: solid #3772f6 4px;
 }
 
 a , p {
