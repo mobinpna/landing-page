@@ -52,10 +52,12 @@ html body {
 
 .info-sec {
     padding: 55px 100px 80px 100px;
+    align-self: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 900px;
 }
 
 .info-sec .top {
@@ -68,6 +70,7 @@ html body {
     display: flex;
     justify-content: space-between;
     gap: 70px;
+    width: 900px;
 }
 
 .sub{
